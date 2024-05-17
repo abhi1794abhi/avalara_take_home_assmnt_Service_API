@@ -5,11 +5,14 @@ all: build
 build:
     @echo "Building service..."
     pip install -r requirements.txt
+    make build
 
 test:
     @echo "Running tests..."
-    # Add your test commands here
+    #test commands here
+    make test
 
 clean:
     @echo "Cleaning up..."
-    # Add your clean commands here
+    #clean commands here
+    make clean
