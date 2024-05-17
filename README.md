@@ -25,7 +25,7 @@ This project implements a simple JSON-based API service to check if two date ran
 }
 
 
-Deployment on AWS Elastic Beanstalk
+#####  Deployment on AWS Elastic Beanstalk
 Initialize Elastic Beanstalk application: eb init
 Create environment: eb create
 Deploy application: eb deploy
