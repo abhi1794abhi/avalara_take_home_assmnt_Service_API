@@ -10,22 +10,8 @@ This project implements a simple JSON-based API service to check if two date ran
 
 `POST /api/check_overlap`
 
-### Request Body
 
-```json
-{
-  "range1": {
-    "start_date": "YYYY-MM-DD",
-    "end_date": "YYYY-MM-DD"
-  },
-  "range2": {
-    "start_date": "YYYY-MM-DD",
-    "end_date": "YYYY-MM-DD"
-  }
-}
-
-
-#####  Deployment on AWS Elastic Beanstalk
+##  Deployment on AWS Elastic Beanstalk
 Initialize Elastic Beanstalk application: eb init
 Create environment: eb create
 Deploy application: eb deploy
@@ -69,6 +55,20 @@ date-overlap-service/
 ├── runtime.txt
 ├── Makefile
 └── README.md
+
+### Request Body
+
+```json
+{
+  "range1": {
+    "start_date": "YYYY-MM-DD",
+    "end_date": "YYYY-MM-DD"
+  },
+  "range2": {
+    "start_date": "YYYY-MM-DD",
+    "end_date": "YYYY-MM-DD"
+  }
+}
 
 
 
